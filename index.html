@@ -269,7 +269,45 @@
             height: 22px;
             fill: var(--text-dark);
         }
-
+        /* --- 7. AMPLOP DIGITAL & GIFT --- */
+        #gift {
+            background-color: var(--ivory);
+            padding: 60px 24px;
+        }
+        .gift-box {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 340px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-top: 20px;
+            border: 1px solid var(--pink-nude);
+        }
+        .bank-logo {
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: var(--text-dark);
+            margin-bottom: 5px;
+        }
+        .btn-salin {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 20px;
+            background-color: var(--text-dark);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        .btn-salin:hover {
+            background-color: var(--gold);
+        }
+ 
     </style>
 </head>
 <body class="no-scroll">
@@ -309,7 +347,12 @@
             <div class="countdown-box"><span id="seconds">00</span><label>Detik</label></div>
         </div>
     </section>
-
+ <!-- Bunga diletakkan di tengah halaman dengan ukuran proporsional -->
+        <div style="text-align: center; margin: 15px 0; opacity: 0.5;">
+            <svg viewBox="0 0 100 50" style="width: 80px; height: auto; fill: none; stroke: #5A4A42; stroke-width: 1.5;">
+                <path d="M10,25 Q35,25 50,15 Q65,25 90,25 M50,15 Q40,30 50,45 Q60,30 50,15 M30,23 Q50,0 50,15 M70,23 Q50,0 50,15" />
+            </svg>
+</div>
     <!-- 3. SALAM & AYAT AL-QURAN -->
     <section id="ayat">
         <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Assalamualaikum Wr. Wb.</h3>
@@ -328,12 +371,25 @@
                 Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/i menghadiri acara pernikahan kami :</p>
         </div>
     </section>
+    <!-- Bunga diletakkan di tengah halaman dengan ukuran proporsional -->
+        <div style="text-align: center; margin: 15px 0; opacity: 0.5;">
+            <svg viewBox="0 0 100 50" style="width: 80px; height: auto; fill: none; stroke: #5A4A42; stroke-width: 1.5;">
+                <path d="M10,25 Q35,25 50,15 Q65,25 90,25 M50,15 Q40,30 50,45 Q60,30 50,15 M30,23 Q50,0 50,15 M70,23 Q50,0 50,15" />
+            </svg>
+</div>
 
-    <!-- 4. PROFIL PENGANTIN -->
+      <!-- 4. PROFIL PENGANTIN -->
     <section id="profil">
-        <h2 style="font-size: 2.2rem; margin-bottom: 10px;"></h2>
-        <hr style="width: 50px; border: 1px solid var(--text-dark); margin-bottom: 20px;">
+        <h2 style="font-size: 2.2rem; margin-bottom: 10px;">Mempelai</h2>
         
+        <!-- Ikon Bunga Minimalis Tengah Layar -->
+        <div style="text-align: center; margin: 15px 0; opacity: 0.5;">
+            <svg viewBox="0 0 100 50" style="width: 80px; height: auto; fill: none; stroke: #5A4A42; stroke-width: 1.5;">
+                <path d="M10,25 Q35,25 50,15 Q65,25 90,25 M50,15 Q40,30 50,45 Q60,30 50,15 M30,23 Q50,0 50,15 M70,23 Q50,0 50,15" />
+            </svg>
+        </div>
+        
+       
         <div class="mempelai-card">
             <h3 class="script-font">Royadi</h3>
             <p style="font-size: 0.8rem; margin-top: 5px;">Putra ke-3 dari Bapak Sinam (Alm) & Ibu Sini</p>
@@ -368,7 +424,7 @@
 
         <form id="ucapanForm">
             <label for="nama">Nama Anda</label>
-            <input type="text" id="nama" placeholder="Contoh: Budi Santoso" required>
+            <input type="text" id="nama" placeholder="Silakan tulis nama Anda disini" required>
 
             <label for="kehadiran">Konfirmasi Kehadiran</label>
                         <!-- LANJUTAN KODE ANDA YANG TERPOTONG (Salin dari baris di bawah ini) -->
@@ -384,14 +440,47 @@
             <button type="submit" class="btn-submit">Kirim Ucapan</button>
         </form>
 
-        <div class="ucapan-box" id="daftarUcapan">
-            <div class="ucapan-item">
-                <strong>Lisna Lestari (Hadir)</strong>
-                <p>Selamat menempuh hidup baru kak Tami & suami! Semoga sakinah mawaddah warahmah.</p>
-            </div>
-        </div>
+            </section> 
 
-        <h3 class="script-font" style="margin-top: 50px; font-size: 2.5rem;">Terima Kasih</h3>
+  
+        <!-- ========================================== -->
+    <!-- 7. SLIDE BERIKUTNYA: AMPLOP DIGITAL (VERSI RAPAT) -->
+    <!-- ========================================== -->
+    <section id="gift" style="padding: 40px 24px; min-height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h2 style="font-size: 2rem; margin-bottom: 5px;">Amplop Digital</h2>
+        <p style="font-size: 0.8rem; max-width: 290px; margin: 0 auto 15px auto; line-height: 1.4;">
+            Bagi Bapak/Ibu/Saudara/i yang ingin mengirimkan hadiah, dapat melalui rekening di bawah ini:
+        </p>
+
+        <!-- Wadah pembungkus agar dua kotak rekening bisa sejajar erat -->
+        <div style="width: 100%; max-width: 340px; display: flex; flex-direction: column; gap: 12px;">
+            
+            <!-- Kotak Rekening 1 -->
+            <div class="gift-box" style="margin-top: 0; padding: 15px; border-radius: 12px;">
+                <div class="bank-logo" style="font-size: 1.2rem; margin-bottom: 2px;">BANK BCA</div>
+                <p style="font-size: 0.85rem; margin: 2px 0;">No. Rekening: <span id="norek1">6000486572</span></p>
+                <p style="font-size: 0.8rem; color: #777;">Atas Nama: Rizkiani Utami</p>
+                <button class="btn-salin" style="margin-top: 8px; padding: 6px 15px; font-size: 0.75rem;" onclick="salinNorek('norek1')">Salin No. Rekening</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- 8. SLIDE BERIKUTNYA: UCAPAN TERIMA KASIH  -->
+    <!-- ========================================== -->
+    <section id="penutup" style="background-color: var(--pink-light); min-height: 50vh; padding: 60px 24px;">
+        <p style="font-size: 0.9rem; max-width: 300px; line-height: 1.6; margin-bottom: 40px;">
+            Atas kehadirannya kami ucapkan terima kasih.
+        </p>
+        
+        <p style="font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 5px;">Hormat Kami,</p>
+        <p style="font-size: 1.2rem; font-weight: bold; font-family: 'Cormorant Garamond', serif;">Keluarga Besar</p>
+    </section>
+
+
+        <h3 class="script-font" style="margin-top: 50px; font-size: 2.5rem;">Royadi & Tami</h3>
     </section>
 
     <script>
